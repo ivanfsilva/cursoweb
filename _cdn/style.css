@@ -149,7 +149,7 @@
 .main_optin {
     width: 100%;
     background-color: #2d3142;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .main_optin_content {
@@ -196,11 +196,62 @@
 
 .main_optin_content form button {
     flex-basis: 20%;
-    -border-radius: 10px;
+    border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     color: #FFFFFF;
     background-color: #D36833;
     border: none;
     font-size: 0.875em;
+}
+
+/* MAIN COURSE */
+
+.main_course {
+    width: 100%;
+}
+
+.main_course .main_course_header {
+    max-width: 780px;
+    text-align: center;
+    color: #333333;
+    margin: 0 auto 40px;
+}
+
+.main_course .main_course_header img {
+    margin-bottom: 20px;
+}
+
+.main_course .main_course_header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.main_course_content {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto 40px;
+}
+
+.main_course_content article {
+    flex-basis: calc(50% - 40px);
+    margin: 20px 0;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+}
+
+.main_course_content article h2 {
+    font-size: 1.3em;
+    color: #333333;
+    margin-bottom: 4px;
+}
+
+.main_course_content article p {
+    font-size: 0.9em;
+    color: #333333;
 }

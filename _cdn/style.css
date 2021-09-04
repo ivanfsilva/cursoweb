@@ -747,6 +747,19 @@
         font-size: 0.9em;
         line-height: 2em;
     }
+
+    .main_tutor_social_network h2 {
+        margin-bottom: 20px;
+    }
+
+    .main_tutor_social_network {
+        max-width: 80%;
+    }
+
+    .main_tutor_social_network > article {
+        flex-basis: 49%;
+        margin-bottom: 20px;
+    }
 }
 
 /* 640px*/
@@ -781,6 +794,13 @@
         flex-basis: 100%;
     }
 
+}
+
+/* 580px */
+@media (max-width: 36em) {
+    .main_tutor_social_network > article {
+        flex-basis: 100%;
+    }
 }
 
 /* 520px */
